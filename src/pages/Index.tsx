@@ -175,7 +175,10 @@ const Index = () => {
                   <div className="text-2xl font-bold text-industrial-accent">
                     {counter.price} ₽
                   </div>
-                  <Button className="bg-industrial-accent hover:bg-industrial-medium text-white">
+                  <Button 
+                    className="bg-industrial-accent hover:bg-industrial-medium text-white"
+                    onClick={() => window.location.href = '/product'}
+                  >
                     <Icon name="ShoppingCart" size={16} className="mr-2" />
                     Заказать
                   </Button>
