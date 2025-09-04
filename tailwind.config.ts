@@ -61,6 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				industrial: {
+					dark: '#2D3748',
+					medium: '#4A5568', 
+					light: '#E2E8F0',
+					white: '#F7FAFC',
+					steel: '#718096',
+					accent: '#3182CE',
 				}
 			},
 			borderRadius: {
